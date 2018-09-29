@@ -1,0 +1,51 @@
+@charset 'utf-8';
+
+.end-box{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	width: 80%;
+	height: 35vh;
+	background: #fff;
+	padding-top: 15%;
+	border-radius: 1em;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.star{
+	position: absolute;
+	top: -13%;
+	left: 30%;
+	width: 40%;
+}
+.h2{
+	font-size: 1.25rem;
+	color: 	#f36548;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto 5%;
+}
+.fail-color{
+	color: #333;
+}
+.end-tips{
+	width: 80%;
+	max-height: 15vh;
+	margin: 0 auto;
+	font-size: 0.9375rem;
+	color: #464646;
+	line-height: 1.2em;
+	text-align: center;
+	justify-content: space-around;
+	word-break: break-all;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	box-orient: vertical;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	overflow: hidden;
+}
+.end-btn-box{
+	bottom: 10%;
+}

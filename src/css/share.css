@@ -1,0 +1,155 @@
+@charset 'utf-8';
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td, p {
+    margin: 0; 
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 1rem;
+}
+body{
+    width: 100%;
+    font-family: "微软雅黑"; 
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(top, #456be0, #62eee8);
+    background: -webkit-linear-gradient(top, #456be0, #62eee8);
+}
+.head-img{
+    width: 100%;
+    margin: 5% auto 2%; 
+}
+.box{
+    position: absolute;
+    bottom: 18vh;
+    left: 0;
+    width: 100%;
+    height: 52.5vh;
+    background: url('../images/bg6.png') no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.cont{
+    position: absolute;
+    top: 11vh;
+    left: 11.2%;
+    width: 77%;
+    height: 17vh;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .5em;
+    overflow: hidden;
+    font-size: 1rem;
+}
+.li{ 
+    position: relative;
+    width: 33.33%;
+    height: 100%;
+    overflow: hidden;
+    border-right: 1.5px solid #f7a839;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-image: url('../images/g.png');
+    background-repeat: repeat-y;
+    background-size: 100% 700%;
+    background-position-x: center;
+    background-position-y: 0;
+    font-size: 1rem;
+}
+.li:last-child{
+    border-right: none;
+}
+.tips-box{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.border{
+    width: 10%;
+    height: 1px;
+    background: #f39e03;
+}
+.tip{
+    width: 80%;
+    background: #f39e03;
+    font-size: 0.8125rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5em;
+    border-radius: .8em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tip span{
+    color: #c80c12;
+}
+.btn-box{
+    width: 100%;
+    margin: 0 auto;
+}
+.go-img{
+    position: absolute;
+    bottom: 1vh;
+    left: 33.5%;
+    width: 33vw;
+    height: 23vw;
+    background: url('../images/go1.png') no-repeat;
+    background-size: 100% 100%;
+}
+.go-img.active{
+    bottom: 2vh;
+    height: 13vw;
+    background: url('../images/go2.png') no-repeat;
+    background-size: 100% 100%;
+}
+.share-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 18vh;
+    background: #f5c519;
+    padding: 3%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.share-bg{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #eea00c;
+    border-radius: 0.5em;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.share-btn{
+    width: 30%;
+    padding: .4em 0;
+    font-size: 1.125rem;
+    color: #fff;
+    background: #dc7500;
+    text-align: center;
+    border-radius: 1em;
+    border-bottom: 1px solid #e69422;
+    box-shadow: 0px 6px 10px #b45001;
+    -webkit-box-shadow: 0px 6px 10px #b45001;
+}
